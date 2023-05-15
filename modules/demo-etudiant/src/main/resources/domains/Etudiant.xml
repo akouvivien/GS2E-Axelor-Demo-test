@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain-models xmlns="http://axelor.com/xml/ns/domain-models"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://axelor.com/xml/ns/domain-models
+  https://axelor.com/xml/ns/domain-models/domain-models_6.0.xsd">
+
+    <module name="etudiant" package="com.axelor.etudiant.db"/>
+
+    <entity name="Etudiant">
+        <string name="firstName" required="true"  min="2" />
+        <string name="lastName" required="true"  min="2" />
+        <string name="email" required="true"  min="12" />
+        <string name="phone" required="true"  min="10" />
+    </entity>
+
+</domain-models>
